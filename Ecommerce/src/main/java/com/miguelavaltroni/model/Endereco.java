@@ -17,7 +17,6 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "endereco")
-
 @SequenceGenerator(name = "enderecoSeq", sequenceName = "endereco", allocationSize = 1, initialValue = 1)
 public class Endereco implements Serializable {
 
